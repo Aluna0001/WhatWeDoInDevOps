@@ -2,7 +2,11 @@
 
 #GitHub Marketplace
 
+#Value Stream Mapping
+
 #"Langsomt erstatte routes"
+
+#Value of PR: Transparency. Men PR blokerer value stream. Det psykologiske i at end anden skal læse ens kode
 
 #APIspec
 
