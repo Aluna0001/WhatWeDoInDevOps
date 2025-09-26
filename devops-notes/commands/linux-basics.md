@@ -1,0 +1,1 @@
+ls, grep, find, chmod, etc.
