@@ -1,5 +1,7 @@
 #konventioner
 
+#GitHub Marketplace
+
 #"Langsomt erstatte routes"
 
 #APIspec
@@ -31,3 +33,23 @@ Swagger er et værktøj og en standard til at beskrive og dokumentere REST API'e
 
 
 #Commit often
+
+# Call Hierarki
+
+## Hvad betyder call hierarki?
+
+En **call hierarki** (eller kaldhierarki) er en oversigt over, hvordan metoder (eller funktioner) kalder hinanden i et program.
+
+Det hjælper med at forstå **hvem der kalder hvem**, og i hvilken rækkefølge tingene bliver udført.
+
+## To vinkler på call hierarki:
+
+1. **Callers** – Hvilke metoder kalder denne metode?
+2. **Callees** – Hvilke metoder bliver kaldt *af* denne metode?
+
+## Hvorfor er det nyttigt?
+
+* **Fejlsøgning:** Man kan følge "call stack" og se, hvor en fejl stammer fra
+* **Forståelse:** Når man overtager kode, kan man se, hvordan logikken hænger sammen
+* **Performance-optimering:** Find ud af, hvilke metoder der bliver kaldt (måske alt for mange gange)
+* **IDE-support:** I fx IntelliJ, Eclipse, eller Visual Studio kan man højreklikke på en metode og vælge *Show Call Hierarchy*, så man ser en grafisk oversigt
